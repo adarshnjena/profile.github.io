@@ -11,9 +11,11 @@
     }
     .navbar {
         background:  #E9F9FF;
-        height: 50vh;
+        height: 400px;
         flex-direction: column;
         display: none;
+        justify-content: center;
+        position: relative;
     }
     .mobile-nav {
         display: flex;
@@ -22,8 +24,11 @@
         position: absolute;
         z-index: 100;
     }
+    
+
     .nav-list ul {
         flex-direction: column;
+
     }
     .nav-list ul li {
         margin-top: 30px;
@@ -63,7 +68,11 @@
         order:1;
     }
     
-    
+    .social-icons{
+        position:absolute;
+        bottom: 5px;
+        margin-top: 20px;
+    }
    
 .btn{
     text-align: center;
