@@ -11,7 +11,7 @@
     }
     .navbar {
         background:  #E9F9FF;
-        height: 45vh;
+        height: 50vh;
         flex-direction: column;
         display: none;
     }
