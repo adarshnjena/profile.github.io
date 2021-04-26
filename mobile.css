@@ -6,29 +6,47 @@
     /* Navbar */
     .toggle-btn i {
         display: block;
-    }
-    .brand img {
         position: absolute;
-        top: 20px;
-        left: 20px;
-        width: 20px;
+        z-index: 1000;
     }
     .navbar {
         background:  #E9F9FF;
-        height: 100vh;
+        height: 45vh;
         flex-direction: column;
         display: none;
     }
     .mobile-nav {
         display: flex;
+        transform-origin: top right;
+        animation: anmi 200ms ease-out;
+        position: absolute;
+        z-index: 100;
     }
     .nav-list ul {
         flex-direction: column;
     }
     .nav-list ul li {
         margin-top: 30px;
+        text-align: center;
     }
     
+    li::after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 10%;
+        width: 80%;
+        background-color: black;
+        height: 2px;
+        border-radius: 100px;
+        transform: scaleX(0)
+    }
+    
+    li:hover::after{
+        transform: scaleX(1);
+        transition: 200ms;
+    }
+
     .header {
         height: 100%;
         margin-top: 120px;
@@ -50,4 +68,13 @@
 .copyright p{
     font-size: 12px;
 }  
+}
+
+@keyframes anmi {
+    from{
+        transform: scaleX(0)scaleY(0)scaleZ(0);
+    }
+    to{
+        transform: scaleX(1)scaleY(1)scaleZ(1);
+    }
 }
