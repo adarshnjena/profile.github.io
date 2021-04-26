@@ -18,6 +18,7 @@ body,html {
     --dark-purple : #55527C;
     --circle : rgb(221, 28, 26, 0.3);
     --light-pink : #FFF5F6;
+    --circle2 : rgb(253, 255, 182,0.5)
     
 }
 
@@ -100,6 +101,19 @@ a {
     border-radius: 50%;
     z-index: -1;
 }
+
+.circle2{
+    width: 500px;
+    height: 500px;
+    background: var(--circle2);
+    position: absolute;
+    bottom: 0%;
+    left: -30%;
+    border-radius: 50%;
+    z-index: -1;
+    overflow: hidden;
+}
+
 
 
 /* Navbar */
