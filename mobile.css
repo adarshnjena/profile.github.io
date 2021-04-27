@@ -14,8 +14,10 @@
         height: 400px;
         flex-direction: column;
         display: none;
+        align-items: center;
         justify-content: center;
         position: relative;
+        margin: 0 auto;
     }
     .mobile-nav {
         display: flex;
@@ -61,22 +63,30 @@
     }
     .header .intro {
         padding: 20px;
-        order:2
+        order:2;
     }
+    
+
     .header .profile  img{
-        max-width: 90%;
+        max-width: 80%;
+        border-radius: 100%;
         order:1;
     }
     
-    .social-icons{
+    .navbar .social-icons{
         position:absolute;
         bottom: 5px;
-        margin-top: 20px;
+    }
+    .navbar .social-icons ul{
+        align-items: center;
+    }
+
+    .navbar .social-icons ul li {
+
     }
    
 .btn{
     text-align: center;
-    max-width: 120px;
     padding: 10px;
     color: var(--light-pink);
     background-color: var(--h1);
