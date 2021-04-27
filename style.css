@@ -131,7 +131,7 @@ a {
     display: flex;
 }
 .navbar .nav-list ul li,.navbar .social-icons ul li {
-    margin: 0px 30px;
+    margin: 0 30px;
     color: var(--dark-purple);
     font-size: 18px;
     cursor: pointer;

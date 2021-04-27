@@ -81,8 +81,8 @@
         align-items: center;
     }
 
-    .navbar .social-icons ul li {
-
+    .navbar .nav-list ul li {
+         margin-top: 25px;
     }
    
 .btn{
