@@ -10,7 +10,7 @@
 
 body,html {
     font-family: 'Poppins', arial;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 :root {
     --h1 :#1e1964;
